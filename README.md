@@ -1,66 +1,71 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Nama : Bunga Rasikhah Haya
+NPM : 2308107010010
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Deskripsi Aplikasi
+GradPath adalah sebuah aplikasi web berbasis framework Laravel yang dirancang untuk membantu mahasiswa dan institusi pendidikan dalam mengelola, memantau, dan mengevaluasi progres pengerjaan proyek mahasiswa secara efisien dan terstruktur. Sistem ini menyediakan antarmuka intuitif yang memungkinkan mahasiswa untuk melacak kemajuan proyek mereka dari awal hingga selesai, serta mempermudah dosen atau pembimbing dalam memantau dan mengevaluasi performa mahasiswa secara berkala.
+Aplikasi ini dikembangkan sebagai solusi terhadap kurangnya sistem terintegrasi yang mampu menyajikan informasi proyek mahasiswa secara real-time dan terpersonalisasi. Dengan fitur-fitur yang dirancang khusus untuk kebutuhan akademik, GradPath diharapkan dapat meningkatkan keterlibatan mahasiswa dalam proyek akademik, memperkuat komunikasi dengan pembimbing, serta menumbuhkan tanggung jawab dan profesionalisme dalam menyelesaikan proyek.
 
-## About Laravel
+Tujuan Utama Pengembangan GradPath
+1. Memberikan sistem monitoring proyek yang efisien bagi mahasiswa.
+2. Menyajikan dashboard ringkasan proyek yang memudahkan pemantauan progres.
+3. Memfasilitasi proses evaluasi oleh dosen atau pembimbing secara terstruktur.
+4. Menjadi wadah penyimpanan histori proyek mahasiswa yang terdokumentasi dengan baik.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Fitur Utama GradPath
+1. Autentikasi Login dan Registrasi menggunakan NPM
+    - Sistem login menggunakan NPM (Nomor Pokok Mahasiswa) sebagai pengganti email.
+    - Validasi input untuk memastikan NPM unik dan sesuai struktur.
+    - Fitur ini memudahkan integrasi dengan data akademik yang sudah ada di kampus.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+2. Dashboard Interaktif
+    - Menyajikan data ringkasan seperti:
+    - Jumlah proyek aktif
+    - Jumlah proyek yang memiliki deadline
+    - Rata-rata progres pengerjaan proyek
+    - Dashboard juga menyapa pengguna dengan ucapan personal.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+3. Manajemen Proyek
+    - Menambahkan proyek baru
+    - Melihat detail proyek
+    - Mengubah status dan progres proyek
+    - Menghapus proyek yang tidak diperlukan
+    - Setiap proyek memiliki atribut seperti judul, status, periode_mulai, periode_selesai, dan progres.
 
-## Learning Laravel
+4. Evaluasi dan Penilaian
+    - Fitur halaman "Evaluations" memungkinkan pembimbing memberikan penilaian atau catatan terhadap progres mahasiswa.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+5. Profil Pengguna
+    - Halaman profil memuat informasi pengguna seperti nama, NPM, dan riwayat aktivitas.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Penjelasan Kode dan User Interface
+1. Autentikasi Custom
+    - Login menggunakan npm sebagai credential utama.
+    - Validasi login dilakukan di LoginController.
+      
+2.  Dashboard (DashboardController)
+    - Mengambil data proyek dari user yang sedang login.
+    - Menghitung:
+    - Jumlah proyek aktif
+    - Jumlah proyek dengan deadline (periode_selesai tidak null)
+    - Rata-rata progres proyek
+    - Mengirim data ke dashboard.blade.php.
+      
+3. Tampilan User Interface
+   - Layout utama di layouts/Dashboard.blade.php berisi sidebar dan struktur HTML dasar.
+   - Tampilan dashboard.blade.php menampilkan ucapan selamat datang dan ringkasan data dengan <div class="card"> serta <progress> bar.
+  
+   - Cara Instalasi Aplikasi
+   - 1. Clone Repository
+        git clone <url-repo>
+        cd GradPath
+     2. Install Dependency Laravel
+        composer install
+     3. Copy & KOnfigurasi File .env
+        cp .env.example .env
+     5. Generate App Key
+        php artisan key:generate
+     6. Migrasi dan Seeder Database
+        php artisan migrate
+        php artisan db:seed
+     7. Jalankan Aplikasi
+        php artisan serve
