@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+.nilai-container {
+  max-width: 1100px;
+  margin: 50px auto;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px 15px;
+  width: 300px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table thead {
+  background-color: #f3f4f6;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+table td {
+  color: #374151;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #111827;
+}
+
+.average {
+  text-align: right;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #111827;
+}
+
+.badge {
+  background-color: #e0f2fe;
+  color: #0369a1;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  display: inline-block;
+}
